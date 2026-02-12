@@ -19,11 +19,17 @@ const processedMarkdown = slidesContent
 
 // Inject content into the section
 const section = document.querySelector(".slides section");
-section.innerHTML = `
-  <script type="text/template">
-    ${processedMarkdown}
-  </script>
-`;
+if (section) {
+  section.setAttribute('data-markdown', '');
+  section.setAttribute('data-separator', '^\\r?\\n---\\r?\\n$');
+  section.setAttribute('data-separator-vertical', '^\\r?\\n--\\r?\\n$');
+  
+  section.innerHTML = `
+    <textarea data-template>
+      ${processedMarkdown}
+    </textarea>
+  `;
+}
 
 // Initialize Reveal
 Reveal.initialize({

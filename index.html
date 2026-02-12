@@ -6,82 +6,14 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
-
     <title>reveal.js</title>
-
-    <link rel="stylesheet" href="node_modules/reveal.js/dist/reset.css" />
-    <link rel="stylesheet" href="node_modules/reveal.js/dist/reveal.css" />
-    <link rel="stylesheet" href="node_modules/reveal.js/dist/theme/black.css" />
-    <link rel="stylesheet" href="style.css" />
-
-    <!-- Theme used for syntax highlighted code -->
-    <link
-      rel="stylesheet"
-      href="node_modules/reveal.js/plugin/highlight/monokai.css"
-    />
   </head>
   <body>
     <div class="reveal">
       <div class="slides">
-        <section
-          data-separator="^\r?\n---\r?\n$"
-          data-separator-vertical="^\r?\n--\r?\n$"
-        ></section>
+        <section></section>
       </div>
     </div>
-
-    <script src="node_modules/reveal.js/dist/reveal.js"></script>
-    <script src="node_modules/reveal.js/plugin/notes/notes.js"></script>
-    <script src="node_modules/reveal.js/plugin/markdown/markdown.js"></script>
-    <script src="node_modules/reveal.js/plugin/highlight/highlight.js"></script>
-    <script>
-      // Fetch and process markdown before initializing
-      fetch("content/slides.md")
-        .then((response) => response.text())
-        .then((markdown) => {
-          // Process 2-col and 3-col syntax
-          // Replaces "--- 2-col" with "--- \n<!-- .slide: class=\"two-col\" -->"
-          let processedMarkdown = markdown
-            .replace(
-              /^---\s+2-col/gm,
-              '---\n<!-- .slide: class="two-col" -->\n',
-            )
-            .replace(
-              /^---\s+3-col/gm,
-              '---\n<!-- .slide: class="three-col" -->\n',
-            );
-
-          // Update the section with the processed markdown
-          const section = document.querySelector("section[data-markdown]");
-          section.removeAttribute("data-markdown");
-          section.removeAttribute("data-separator");
-          section.removeAttribute("data-separator-vertical");
-
-          // We insert it as a script template to avoid HTML parsing issues during insertion,
-          // which the Markdown plugin supports via data-markdown attributes, but here we set content directly.
-          // Actually, the best way for the Markdown plugin to pick up dynamic content is usually
-          // via the element content if data-markdown is present without a value, OR we can just
-          // set the attributes back but they won't trigger a re-fetch.
-          //
-          // Better approach: modifying the element's logic before reveal initializes.
-          // The Markdown plugin looks for data-markdown. If it has no value, it looks at specific script children.
-          // Let's manually set the innerHTML and let the plugin parse it.
-          //
-          // WAIT: The cleanest way is to use the data-markdown attribute but point to a blob, OR
-          // simply put the content inside and remove the URL from data-markdown.
-
-          section.innerHTML = `
-            <script type="text/template">
-              ${processedMarkdown}
-            <\/script>
-          `;
-
-          // Initialize Reveal
-          Reveal.initialize({
-            hash: true,
-            plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
-          });
-        });
-    </script>
+    <script type="module" src="/main.js"></script>
   </body>
 </html>
