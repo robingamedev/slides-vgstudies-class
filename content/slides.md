@@ -6,9 +6,11 @@
 
 Gaming distilled to its core
 
---- 2-col
+---
 
-## Aboot me
+[2-col]
+
+Aboot me
 
 ![My Image](content/consoles.png) <!-- .element: height="500px"  -->
 
@@ -29,3 +31,15 @@ Vertical Slide 1
 --
 
 Vertical Slide 2
+
+---
+
+[3-col]
+
+## 3 Column Layout
+
+Column 1 Content
+
+Column 2 Content
+
+Column 3 Content

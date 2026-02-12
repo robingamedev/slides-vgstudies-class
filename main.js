@@ -12,10 +12,10 @@ import Notes from "reveal.js/plugin/notes/notes.esm.js";
 import slidesContent from "./content/slides.md?raw";
 
 // Process 2-col and 3-col syntax
-// Replaces "--- 2-col" with "--- \n<!-- .slide: class="two-col" -->"
+// Replaces "[2-col]" with "<!-- .slide: class="two-col" -->"
 const processedMarkdown = slidesContent
-  .replace(/^---\s+2-col/gm, '---\n<!-- .slide: class="two-col" -->\n')
-  .replace(/^---\s+3-col/gm, '---\n<!-- .slide: class="three-col" -->\n');
+  .replace(/^\[2-col\]/gm, '<!-- .slide: class="two-col" -->')
+  .replace(/^\[3-col\]/gm, '<!-- .slide: class="three-col" -->');
 
 // Inject content into the section
 const section = document.querySelector(".slides section");

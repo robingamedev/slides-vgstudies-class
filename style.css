@@ -1,41 +1,40 @@
-/* Custom Layouts */
-
-.reveal .two-col,
-.reveal .three-col {
-  display: grid;
+/* Target the section element directly */
+.reveal .slides section.two-col, 
+.reveal .slides section.three-col {
+  display: grid !important;
   grid-gap: 2rem;
   align-items: center;
   height: 100%;
 }
 
-.reveal .two-col {
+.reveal .slides section.two-col {
   grid-template-columns: 1fr 1fr;
 }
 
-.reveal .three-col {
+.reveal .slides section.three-col {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
 /* Make headers span full width */
-.reveal .two-col > h1,
-.reveal .two-col > h2,
-.reveal .two-col > h3,
-.reveal .two-col > h4,
-.reveal .two-col > h5,
-.reveal .two-col > h6,
-.reveal .three-col > h1,
-.reveal .three-col > h2,
-.reveal .three-col > h3,
-.reveal .three-col > h4,
-.reveal .three-col > h5,
-.reveal .three-col > h6 {
+.reveal .slides section.two-col > h1, 
+.reveal .slides section.two-col > h2, 
+.reveal .slides section.two-col > h3, 
+.reveal .slides section.two-col > h4, 
+.reveal .slides section.two-col > h5, 
+.reveal .slides section.two-col > h6,
+.reveal .slides section.three-col > h1, 
+.reveal .slides section.three-col > h2, 
+.reveal .slides section.three-col > h3, 
+.reveal .slides section.three-col > h4, 
+.reveal .slides section.three-col > h5, 
+.reveal .slides section.three-col > h6 {
   grid-column: 1 / -1;
   text-align: center;
 }
 
 /* Ensure images fit within their grid cells */
-.reveal .two-col img,
-.reveal .three-col img {
+.reveal .slides section.two-col img, 
+.reveal .slides section.three-col img {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
