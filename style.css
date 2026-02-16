@@ -1,5 +1,5 @@
-/* Target the section element directly */
-.reveal .slides section.two-col, 
+/* Target the section element directly my dude */
+.reveal .slides section.two-col,
 .reveal .slides section.three-col {
   display: grid !important;
   grid-gap: 2rem;
@@ -16,24 +16,24 @@
 }
 
 /* Make headers span full width */
-.reveal .slides section.two-col > h1, 
-.reveal .slides section.two-col > h2, 
-.reveal .slides section.two-col > h3, 
-.reveal .slides section.two-col > h4, 
-.reveal .slides section.two-col > h5, 
-.reveal .slides section.two-col > h6,
-.reveal .slides section.three-col > h1, 
-.reveal .slides section.three-col > h2, 
-.reveal .slides section.three-col > h3, 
-.reveal .slides section.three-col > h4, 
-.reveal .slides section.three-col > h5, 
-.reveal .slides section.three-col > h6 {
+.reveal .slides section.two-col>h1,
+.reveal .slides section.two-col>h2,
+.reveal .slides section.two-col>h3,
+.reveal .slides section.two-col>h4,
+.reveal .slides section.two-col>h5,
+.reveal .slides section.two-col>h6,
+.reveal .slides section.three-col>h1,
+.reveal .slides section.three-col>h2,
+.reveal .slides section.three-col>h3,
+.reveal .slides section.three-col>h4,
+.reveal .slides section.three-col>h5,
+.reveal .slides section.three-col>h6 {
   grid-column: 1 / -1;
   text-align: center;
 }
 
 /* Ensure images fit within their grid cells */
-.reveal .slides section.two-col img, 
+.reveal .slides section.two-col img,
 .reveal .slides section.three-col img {
   max-width: 100%;
   max-height: 100%;
