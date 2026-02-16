@@ -13,9 +13,13 @@ import slidesContent from "./content/slides.md?raw";
 
 // Process 2-col and 3-col syntax
 // Replaces "[2-col]" with "<!-- .slide: class="two-col" -->"
+// Replaces "[col]" with "<div class="col">" (and [/col] with </div>)
+// Note: We add newlines to ensure Markdown inside the divs is processed.
 const processedMarkdown = slidesContent
   .replace(/^\[2-col\]/gm, '<!-- .slide: class="two-col" -->')
-  .replace(/^\[3-col\]/gm, '<!-- .slide: class="three-col" -->');
+  .replace(/^\[3-col\]/gm, '<!-- .slide: class="three-col" -->')
+  .replace(/^\[col\]/gm, '\n<div class="col">\n')
+  .replace(/^\[\/col\]/gm, '\n</div>\n');
 
 // Inject content into the section
 const section = document.querySelector(".slides section");

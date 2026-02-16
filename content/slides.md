@@ -10,9 +10,17 @@ Gaming distilled to its core
 
 [2-col]
 
+[col]
 Aboot me
 
+Test words
+
+Hello
+[/col]
+
+[col]
 ![My Image](content/consoles.png) <!-- .element: height="500px"  -->
+[/col]
 
 ---
 
