@@ -1,6 +1,8 @@
+# Hi there
+
 ---
 
-[col-2]
+[2-col]
 
 # The Cost of Gaming
 
@@ -9,7 +11,7 @@
 - You either bought games as they came out at your local Funcoland
 - OR you bought lots of magazines (GamePros, Game Informers, Nintendo Power, Electronic Game Monthlys) to read about the games.
 
-![image of 1990s game magazines](content/1990s-game-magazines.png)
+![image of 1990s game magazines](1990s-game-magazines.webp)
 
 [/col]
 
@@ -37,11 +39,11 @@ With the average cost of gaming now sitting at roughly $0.80 per hour—compared
 
 ---
 
-
 # Discovery of New Games
 
 - 20,282 games were released in 2025. 
-- There’s a combined total of over 85,800 games released in the past FIVE years. (That's a new release on Steam every 25 minutes.)
+- There’s a combined total of over 85,800 games released in the past FIVE years. 
+- (That's a new release on Steam every 25 minutes.)
 
 [braindump]
 What about new games? 20,282 games were released in 2025. Between 2020 and 2025, a combined total of over 85,800 games were released on Steam.
@@ -63,7 +65,7 @@ Today, "The Algorithm" controls you.
 
 [col]
 But they are also affected by "The Algorithm". 
-- Twitch players (**Influencers**) get paid to play specific games, and lose viewers if they play other games.
+- **Influencers** (like Twitch/Youtubers) get paid to play specific games, and lose viewers if they play other games.
 - **Game Journalists** write for SEO. AAA games attracts eyeballs, not indie games.  
 - **Game Curators** are unpaid and rely on the Discovery Feed. They only recommend what they find.
 - **Storefronts** prioritize "relevance", not "quality". Giant ads and the Top Sellers chart are the main drivers of discovery.
@@ -95,24 +97,7 @@ But they are also affected by "The algorithm".
 
 - Remember, these were indie games before they became popular:
 
-![collage of indie games][content/indie-collage.png]
-
-
-![Minecraft](content/minecraft.png)
-![Terraria](content/terraria.png)
-![Stardew Valley](content/stardew_valley.png)
-![Hollow Knight](content/hollow_knight.png)
-![Undertale](content/undertale.png)
-![Hades](content/hades.png)
-![Cuphead](content/cuphead.png)
-![Fez](content/fez.png)
-![Stray](content/stray.png)
-![Journey](content/journey.png)
-![Inscryption](content/inscryption.png)
-![Papers Please](content/papers_please.png)
-![Return of the Obra Dinn](content/return_of_the_obra_dinn.png)
-![The Stanley Parable](content/the_stanley_parable.png)
-![Disco Elysium](content/disco_elysium.png)
+![collage of indie games][indie-collage.png]
 
 
 [braindump]
@@ -131,7 +116,8 @@ But I like to remind people:
 
 [slides]
 
-![Van Gogh](content/van_gogh.png)
+![Van Gogh](vangogh.jpg)
+
 "This weird painting by Van Gogh is actually brilliant." - some taste maker
 
 
@@ -162,7 +148,7 @@ You can be the taste maker who recommends the next Hollow Knight, the next Hades
 
 # Will rising RAM prices cause the next Video Game Crash?
 
-![Call of duty game](content/call-of-duty.png)
+![Call of duty game](call-of-duty.jpeg)
 
 
 [braindump]
@@ -198,18 +184,18 @@ These are games that are inspired by the classics and keeping the genre alive. M
 ---
 
 
-[col-2]
+[2-col]
 
 [col]
 
 Advance War-like games
-![Advance War](content/advance-war.png)
+![Advance War](advance-wars.png)
 
 [/col]
 
 [col]
 
-![Advance War-like games](content/advance-war-like.png)
+![Advance War-like games](advance-war-like.png)
 
 source: Advance Wars subreddit "Turned Based Strategy" community
 
@@ -229,18 +215,18 @@ sources: Advance Wars subreddit "Turned Based Strategy" community
 ---
 
 
-[col-2]
+[2-col]
 
 [col]
 
 Animal Crossing-like games
-![Animal Crossing](content/animal-crossing.png)
+![Animal Crossing](animal-crossing.png)
 
 [/col]
 
 [col]
 
-![Animal Crossing-like games](content/animal-crossing-like.png)
+![Animal Crossing-like games](animal-crossing-like.png)
 
 source: "cozy gamer" community
 
@@ -259,18 +245,18 @@ sources: "cozy gamer" community
 ---
 
 
-[col-2]
+[2-col]
 
 [col]
 
 Doom-like games
-![Doom](content/doom.png)
+![Doom](doom.png)
 
 [/col]
 
 [col]
 
-![Doom-like games](content/doom-like.png)
+![Doom-like games](doom-like.png)
 
 source: "boomer shooters" community
 
@@ -289,18 +275,18 @@ sources: "boomer shooters"
 ---
 
 
-[col-2]
+[2-col]
 
 [col]
 
 Metroidvanias
-![Metroidvania](content/metroidvania.png)
+![Metroidvania](metroidvania.png)
 
 [/col]
 
 [col]
 
-![Metroidvanias](content/metroidvania-like.png)
+![Metroidvanias](metroidvania-like.png)
 
 source: "metroidvania" community
 
@@ -320,18 +306,18 @@ sources: "metroidvania"
 ---
 
 
-[col-2]
+[2-col]
 
 [col]
 
 Open-world building games
-![Open-world building games](content/open-world-building.png)
+![Open-world building games](open-world-building.png)
 
 [/col]
 
 [col]
 
-![Open-world building games](content/open-world-building-like.png)
+![Open-world building games](open-world-building-like.png)
 
 source: "open-world building" community
 
@@ -358,18 +344,18 @@ Indie games that take a small mechanic and make it their identity, and expanding
 ---
 
 
-[col-2]
+[2-col]
 
 [col]
 
 Games that are about inventory management
-![Inventory management](content/inventory-management.png)
+![Inventory management](inventory-management.png)
 
 [/col]
 
 [col]
 
-![Inventory management](content/inventory-management-like.png)
+![Inventory management](inventory-management-like.png)
 
 source: "Inventory Management" community
 
@@ -389,18 +375,18 @@ Source: https://store.steampowered.com/tags/en/Inventory%20Management/
 ---
 
 
-[col-2]
+[2-col]
 
 [col]
 
 Games about Vertical Traversal
-![Vertical Traversal](content/vertical-traversal.png)
+![Vertical Traversal](vertical-traversal.png)
 
 [/col]
 
 [col]
 
-![Vertical Traversal](content/vertical-traversal-like.png)
+![Vertical Traversal](vertical-traversal-like.png)
 
 source: "Vertical Traversal" community
 
@@ -419,18 +405,18 @@ The Legend of Zelda: Breath of the Wild and Assassin’s Creed made climbing fun
 ---
 
 
-[col-2]
+[2-col]
 
 [col]
 
 Games about Ghost hunting
-![Ghost hunting](content/ghost-hunting.png)
+![Ghost hunting](ghost-hunting.png)
 
 [/col]
 
 [col]
 
-![Ghost hunting](content/ghost-hunting-like.png)
+![Ghost hunting](ghost-hunting-like.png)
 
 source: "Ghost hunting" community
 
@@ -459,18 +445,18 @@ In the art world, this was a art movement that shifted painting towards personal
 ---
 
 
-[col-2]
+[2-col]
 
 [col]
 
 Nostalgic
-![Nostalgic](content/nostalgic.png)
+![Nostalgic](nostalgic.png)
 
 [/col]
 
 [col]
 
-![Nostalgic](content/nostalgic-like.png)
+![Nostalgic](nostalgic-like.png)
 
 source: "Nostalgic" community
 
@@ -488,18 +474,18 @@ Source: Me.
 ---
 
 
-[col-2]
+[2-col]
 
 [col]
 
 ASCII
-![ASCII](content/ascii.png)
+![ASCII](ascii.png)
 
 [/col]
 
 [col]
 
-![ASCII](content/ascii-like.png)
+![ASCII](ascii-like.png)
 
 source: "ASCII" community
 
@@ -519,7 +505,7 @@ Source: steam
 
 
 
-![New experience](content/new-experience-like.png)
+![New experience](new-experience-like.png)
 
 
 [braindump]

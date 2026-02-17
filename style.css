@@ -11,7 +11,16 @@
   grid-gap: 2rem;
   align-items: flex-start;
   height: 100%;
-  grid-template-rows: min-content 1fr;
+  grid-template-rows: min-content minmax(0, 1fr);
+}
+
+.reveal .slides section.two-col .col,
+.reveal .slides section.three-col .col {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .reveal .slides section.two-col {
