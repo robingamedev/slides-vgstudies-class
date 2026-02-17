@@ -11,7 +11,22 @@
   grid-gap: 2rem;
   align-items: flex-start;
   height: 100%;
-  grid-template-rows: min-content 1fr;
+  grid-template-rows: min-content minmax(0, 1fr);
+}
+
+.reveal .slides section.two-col .col,
+.reveal .slides section.three-col .col {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+section>p {
+  height: stretch;
 }
 
 .reveal .slides section.two-col {
@@ -43,8 +58,7 @@
 /* Ensure images fit within their grid cells */
 .reveal .slides section.two-col img,
 .reveal .slides section.three-col img {
-  width: 350px;
   max-width: 100%;
-  height: auto;
+  max-height: 100%;
   object-fit: contain;
 }
