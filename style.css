@@ -1,6 +1,7 @@
-::root {
+:root {
   --r-heading-size: 2em;
   --r-main-font-size: 1.5em;
+  --r-background-color: black;
 }
 
 /* Target the section element directly my dude */
@@ -10,6 +11,7 @@
   grid-gap: 2rem;
   align-items: flex-start;
   height: 100%;
+  grid-template-rows: min-content 1fr;
 }
 
 .reveal .slides section.two-col {
@@ -35,6 +37,7 @@
 .reveal .slides section.three-col>h6 {
   grid-column: 1 / -1;
   text-align: center;
+  margin-bottom: 0;
 }
 
 /* Ensure images fit within their grid cells */
