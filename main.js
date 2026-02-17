@@ -19,7 +19,9 @@ const processedMarkdown = slidesContent
   .replace(/^\[2-col\]/gm, '<!-- .slide: class="two-col" -->')
   .replace(/^\[3-col\]/gm, '<!-- .slide: class="three-col" -->')
   .replace(/^\[col\]/gm, '\n<div class="col">\n')
-  .replace(/^\[\/col\]/gm, '\n</div>\n');
+  .replace(/^\[\/col\]/gm, '\n</div>\n')
+  // Strip out [braindump] content until end of slide or file
+  .replace(/\[braindump\][\s\S]*?(?=\n---|$)/g, '');
 
 // Inject content into the section
 const section = document.querySelector(".slides section");
@@ -27,7 +29,7 @@ if (section) {
   section.setAttribute('data-markdown', '');
   section.setAttribute('data-separator', '^\\r?\\n---\\r?\\n$');
   section.setAttribute('data-separator-vertical', '^\\r?\\n--\\r?\\n$');
-  
+
   section.innerHTML = `
     <textarea data-template>
       ${processedMarkdown}

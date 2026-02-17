@@ -1,9 +1,14 @@
+::root {
+  --r-heading-size: 2em;
+  --r-main-font-size: 1.5em;
+}
+
 /* Target the section element directly my dude */
 .reveal .slides section.two-col,
 .reveal .slides section.three-col {
   display: grid !important;
   grid-gap: 2rem;
-  align-items: center;
+  align-items: flex-start;
   height: 100%;
 }
 
