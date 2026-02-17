@@ -220,7 +220,7 @@ sources: Advance Wars subreddit "Turned Based Strategy" community
 [col]
 
 Animal Crossing-like games
-![Animal Crossing](animal-crossing.png)
+![Animal Crossing](animal-crossing.webp)
 
 [/col]
 
@@ -250,7 +250,7 @@ sources: "cozy gamer" community
 [col]
 
 Doom-like games
-![Doom](doom.png)
+![Doom](doom.webp)
 
 [/col]
 
@@ -280,7 +280,7 @@ sources: "boomer shooters"
 [col]
 
 Metroidvanias
-![Metroidvania](metroidvania.png)
+![Metroidvania](metroidvania.jpg)
 
 [/col]
 
@@ -311,13 +311,13 @@ sources: "metroidvania"
 [col]
 
 Open-world building games
-![Open-world building games](open-world-building.png)
+![Open-world building games](open-world.avif)
 
 [/col]
 
 [col]
 
-![Open-world building games](open-world-building-like.png)
+![Open-world building games](open-world-like.png)
 
 source: "open-world building" community
 
@@ -334,8 +334,6 @@ source: "open-world building" community
 
 ---
 
-
-[braindump]
 But maybe you want to go into the next level. 
 This is "Level 2: The Iterators".
 
@@ -349,7 +347,7 @@ Indie games that take a small mechanic and make it their identity, and expanding
 [col]
 
 Games that are about inventory management
-![Inventory management](inventory-management.png)
+![Inventory management](inventory-management.webp)
 
 [/col]
 
@@ -380,7 +378,7 @@ Source: https://store.steampowered.com/tags/en/Inventory%20Management/
 [col]
 
 Games about Vertical Traversal
-![Vertical Traversal](vertical-traversal.png)
+![Vertical Traversal](vertical-traversal.jpg)
 
 [/col]
 
@@ -410,7 +408,7 @@ The Legend of Zelda: Breath of the Wild and Assassin’s Creed made climbing fun
 [col]
 
 Games about Ghost hunting
-![Ghost hunting](ghost-hunting.png)
+![Ghost hunting](ghost-hunting.avif)
 
 [/col]
 
@@ -435,6 +433,9 @@ Games with tactical breach like Rainbow Six Siege and spooky investigations like
 
 
 
+Finally, you're now at Level 3: The Impressionists. 
+
+In art, the movement that shifted painting to personal expression was called Impressionism. In games, this is games as art. They weren't chasing a fad - they made it out of love.
 
 
 [braindump]
@@ -444,21 +445,9 @@ In the art world, this was a art movement that shifted painting towards personal
 
 ---
 
+![Nostalgic](nostalgia-like.png)
 
-[2-col]
-
-[col]
-
-Nostalgic
-![Nostalgic](nostalgic.png)
-
-[/col]
-
-[col]
-
-![Nostalgic](nostalgic-like.png)
-
-source: "Nostalgic" community
+source: "Nostalgia" community
 
 [/col]
 
@@ -473,23 +462,9 @@ Source: Me.
 
 ---
 
-
-[2-col]
-
-[col]
-
-ASCII
-![ASCII](ascii.png)
-
-[/col]
-
-[col]
-
 ![ASCII](ascii-like.png)
 
 source: "ASCII" community
-
-[/col]
 
 [braindump]
 *ASCII*
